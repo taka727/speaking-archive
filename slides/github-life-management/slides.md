@@ -3,6 +3,14 @@ marp: true
 theme: default
 paginate: true
 header: ""
+style: |
+  section {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 400; /* 標準的な太さを指定 */
+  }
+  b, strong {
+    font-weight: bold; /* 太字が必要な場所だけ太くする */
+  }
 ---
 
 <!-- _class: lead -->
