@@ -5,11 +5,17 @@ paginate: true
 header: ""
 style: |
   section {
-    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
-    font-weight: 400; /* 標準的な太さを指定 */
+    font-family: "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+    font-weight: 400;
+  }
+  h1, h2, h3 {
+    font-weight: 700;
   }
   b, strong {
-    font-weight: bold; /* 太字が必要な場所だけ太くする */
+    font-weight: 700;
+  }
+  table, th, td, li, p, blockquote {
+    font-weight: 400;
   }
 ---
 
